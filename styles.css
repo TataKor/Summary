@@ -1,0 +1,88 @@
+:root {
+  --main-color: #6d66eb;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(162, 227, 247, 0.3);
+}
+body {
+  text-align: center;
+  margin-top: 100px;
+}
+h1 {
+  font-size: 78px;
+}
+h2 {
+  font-size: 46px;
+}
+h3 {
+  font-size: 24px;
+  opacity: 0.7;
+}
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+.navigation-links a {
+  margin: 20px;
+  border-radius: 15px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.navigation-links {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.primary-link {
+  border-radius: 15px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--main-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+.contact-me {
+  background: var(--main-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+  font-size: 20px;
+}
+.primary-link:hover,
+.contact-me:hover,
+.about-me:hover {
+  color: white;
+  background: rgb(179, 58, 248);
+}
+.about-me {
+  color: var(--main-color);
+  border: 1px solid var(--main-color);
+  font-size: 20px;
+}
+.homepage-link {
+  color: var(--main-color);
+  text-align: center;
+  display: block;
+}
+.about-text {
+  display: flex;
+  margin: 30px 0;
+}
+.about-text p {
+  margin: 10px;
+}
+p {
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+}
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--main-color);
+  font-size: 28px;
+  text-decoration: none;
+}
